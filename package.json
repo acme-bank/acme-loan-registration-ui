@@ -1,0 +1,39 @@
+{
+  "name": "acme-loan-registration-ui",
+  "version": "1.0.0",
+  "description": "ACME Loan Registration UI",
+  "author": "Teo <onlyteo@live.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://acme-bank.github.io",
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:acme-bank/acme-loan-registration-ui.git"
+  },
+  "main": "index.tsx",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-redux": "^5.0.19",
+    "@types/redux": "^3.6.0",
+    "awesome-typescript-loader": "^5.0.0",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^4.2.0",
+    "ts-node": "^6.0.2",
+    "tslint": "^5.10.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.8.3",
+    "webpack": "^4.7.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

@@ -34,6 +34,8 @@ jsconfig.json
 
 #node
 node_modules/
+build/
+dist/
 
 # .xml filer generert av PINT #
 dependency-reduced-pom.xml
