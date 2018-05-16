@@ -1,11 +1,11 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-
-import { App } from "./components/App";
-
-var app = document.getElementById("app");
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import App from './App';
+import './index.css';
+import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <App compiler="TypeScript" framework="React" />,
-    app
+  <App />,
+  document.getElementById('root') as HTMLElement
 );
+registerServiceWorker();
