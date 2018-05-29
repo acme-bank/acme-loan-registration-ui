@@ -31,16 +31,19 @@
     "react-dom": "^16.3.2",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts-ts": "2.15.1"
+    "react-scripts-ts": "2.15.1",
+    "react-tap-event-plugin": "^3.0.2"
   },
   "devDependencies": {
     "@types/history": "^4.6.2",
     "@types/jest": "^22.2.3",
+    "@types/material-ui": "^0.20.8",
     "@types/node": "^10.0.8",
     "@types/react": "^16.3.14",
     "@types/react-dom": "^16.0.5",
     "@types/react-router": "^4.0.25",
     "@types/react-router-dom": "^4.2.6",
+    "@types/react-tap-event-plugin": "0.0.30",
     "tslint-config-airbnb": "^5.9.2",
     "typescript": "^2.8.3"
   }
