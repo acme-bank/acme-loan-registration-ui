@@ -36,6 +36,7 @@ jsconfig.json
 node_modules/
 build/
 dist/
+yarn.lock
 
 # .xml filer generert av PINT #
 dependency-reduced-pom.xml

@@ -1,13 +1,16 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
+import rootReducer from './reducers'
 import Routes from './routes';
-import registerServiceWorker from './registerServiceWorker';
-
-import Header from './components/header'
+import registerServiceWorker from './modules/serviceworker';
 
 import './index.css';
+
+const store = createStore(rootReducer)
 
 const theme = createMuiTheme({
   palette: {
@@ -28,10 +31,11 @@ const theme = createMuiTheme({
 
 function Root() {
   return (
-    <MuiThemeProvider theme={theme}>
-      <Header />
-      <Routes />
-    </MuiThemeProvider>
+    <Provider store={store}>
+      <MuiThemeProvider theme={theme}>
+        <Routes />
+      </MuiThemeProvider>
+    </Provider>
   );
 }
 
