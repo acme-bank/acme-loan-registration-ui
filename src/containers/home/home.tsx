@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component, ReactNode } from 'react';
 
-import Menu from '../../components/menu'
+import TopMenu from '../../components/top-menu'
 import './home.css';
 import logoImage from '../../resources/media/logo-300x100.png';
 
@@ -13,7 +13,7 @@ class Home extends Component {
 
     return (
       <div className="container home-container">
-        <Menu logo={logo} />
+        <TopMenu logo={logo} />
         <header className="home-header">
           <h1 className="home-title">Welcome to React</h1>
         </header>
